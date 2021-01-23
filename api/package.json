@@ -1,7 +1,7 @@
 {
   "name": "curso-avanzado-graphql-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejecución del curso avanzado de React",
   "main": "index.js",
   "scripts": {
     "deploy": "now -t <tu-token>",
