@@ -5,9 +5,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import { App } from './App'
 
 const client = new ApolloClient({
-  uri: 'https://petgram-server-fermin.ferminmartin.vercel.app',
-  // LOCAL
-  // uri: 'http://localhost:3500/graphql',
+  uri: 'https://petgram-server-clgg.vercel.app/graphql',
   cache: new InMemoryCache()
 })
 
@@ -15,5 +13,4 @@ ReactDOM.render(
   <ApolloProvider client={client}>
     <App />
   </ApolloProvider>,
-  document.getElementById('app')
-)
+  document.getElementById('app'))
